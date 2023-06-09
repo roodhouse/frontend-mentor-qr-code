@@ -3,9 +3,9 @@ import Image from './images/image-qr-code.png'
 
 function App() {
   return (
-    <div className="App">
-      <div id="containerDiv" className="w-full h-screen flex flex-col justify-center items-center bg-slate-200 px-[23px]">
-        <div id="cardDiv" className='flex flex-col items-center pt-[15px] px-[15px] rounded-[20px] bg-white mb-[50%]'>
+    <div className="App lg:flex lg:flex-col lg:justify-center lg:items-center lg:h-[100%]">
+      <div id="containerDiv" className="w-full flex flex-col justify-center items-center bg-slate-200 px-[23px] lg:max-w-[90%] lg:p-0 lg:drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]">
+        <div id="cardDiv" className='flex flex-col items-center pt-[15px] px-[15px] rounded-[20px] bg-white my-[25%] lg:my-[5%] lg:max-w-[25%] lg:drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]'>
           <div id="imageDiv" className='pb-[35px]'>
             <img src={Image} alt='qr code' className='rounded-[20px]'/>
           </div>
