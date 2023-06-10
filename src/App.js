@@ -1,6 +1,6 @@
 import './App.css';
 import Image from './images/image-qr-code.png'
-
+// trigger change
 function App() {
   return (
     <div className="App lg:flex lg:flex-col lg:justify-center lg:items-center h-[100%]">
