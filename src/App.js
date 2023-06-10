@@ -24,7 +24,7 @@ function App() {
 
         <div className="attribution text-[11px] text-center">
           Challenge by{" "}
-          <a className='text-[hsl(228,45%,44%)]' href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+          <a className='text-[hsl(228,45%,44%)]' rel="noreferrer" href="https://www.frontendmentor.io?ref=challenge" target="_blank">
             Frontend Mentor
           </a>
           . Coded by <a className='text-[hsl(228,45%,44%)]' href="https://github.com/roodhouse">roodhouse</a>.
